@@ -1,0 +1,12 @@
+package by.gstu.project.cli;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class AppTest {
+
+    @Test
+    void testGreeting() {
+        assertEquals("Hello from GSTU Calculator!", App.greeting());
+    }
+}
